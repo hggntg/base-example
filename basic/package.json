@@ -1,0 +1,25 @@
+{
+	"name": "basic",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"baseDependencies": [
+		"@base/builder"
+	],
+	"dependencies": {
+		"@base/builder": "^1.0.147"
+	},
+	"devDependencies": {
+		"@types/node": "^13.13.5",
+		"@types/webpack": "^4.41.12",
+		"inversify": "^5.0.1",
+		"reflect-metadata": "^0.1.13",
+		"ts-loader": "^7.0.3",
+		"typescript": "^3.8.3"
+	}
+}
